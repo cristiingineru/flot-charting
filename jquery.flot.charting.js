@@ -5,6 +5,11 @@ Licensed under the MIT license.
 */
 /*global jQuery, requestAnimationFrame*/
 
+window.addEventListener('beforeunload', function() {
+    console.log('RELOADING');
+    debugger;
+});
+
 (function ($) {
     'use strict';
 
