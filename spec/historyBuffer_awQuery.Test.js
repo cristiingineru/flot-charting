@@ -55,7 +55,7 @@ describe('A HistoryBufferWaveform', function () {
         expect(hb.query).toEqual(jasmine.any(Function));
     });
 
-    it('has a rangeX method', function () {
+    xit('has a rangeX method', function () {
         var hb = new HistoryBufferWaveform(10);
 
         expect(hb.rangeX).toEqual(jasmine.any(Function));
@@ -75,7 +75,7 @@ describe('A HistoryBufferWaveform', function () {
         expect(hb.query(0, 10, 1)).toEqual([4, 1, 5, 2, 6, 3]);
     });
 
-    it('has basic rangeX capabilities', function () {
+    xit('has basic rangeX capabilities', function () {
         var hb = new HistoryBufferWaveform(10);
 
         hb.push(aw4);
